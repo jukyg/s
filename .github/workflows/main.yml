@@ -5,7 +5,7 @@ on:
     - cron: '0 */6 * * *'
 jobs:
   gartic-bot:
-    runs-on: windows-2019
+    runs-on: windows-2022
     timeout-minutes: 360
     strategy:
       # هذا الجزء هو "السر" لتشغيل نسختين في نفس الوقت
